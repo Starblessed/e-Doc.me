@@ -1,0 +1,14 @@
+[project]
+name = "e-doc-me"
+version = "0.1.1"
+description = "Local-first document scanner."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "celery[redis]>=5.6.2",
+    "fastapi[standard]>=0.135.1",
+    "numpy>=2.4.2",
+    "opencv-contrib-python>=4.13.0.92",
+    "opencv-python>=4.13.0.92",
+    "reportlab>=4.4.10",
+]
