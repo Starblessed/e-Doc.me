@@ -49,7 +49,7 @@ def auto_crop_and_rectify(self, payload: dict) -> dict:
     """
     print(payload)
     image_path: str = payload.get("img_path", "")
-    export_as: str = payload.get("export_as", "")
+    export_as: str = payload.get("export_as", "png")
 
     assert os.path.exists(image_path), f"Provided image path does not exist: {image_path}"
     assert export_as in ["pdf", "jpg", "png"], f"Provided export mode is invalid: {export_as}"
@@ -73,7 +73,7 @@ def auto_crop_and_rectify(self, payload: dict) -> dict:
 @celery_app.task(bind=True)
 def manual_crop_and_rectify(self, payload: dict) -> dict:
     image_path: str = payload.get("image_path", "")
-    export_as: str = payload.get("export_as", "")
+    export_as: str = payload.get("export_as", "png")
     region: list = payload.get("region", "")
 
     assert os.path.exists(image_path), f"Provided image path does not exist: {image_path}"

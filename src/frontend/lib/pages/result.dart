@@ -1,11 +1,13 @@
+import "dart:io";
+
 import "package:flutter/material.dart";
 import "package:pdfx/pdfx.dart";
 import "package:frontend/styles/colors.dart";
 
 class ResultArguments {
-  final String pdfPath;
+  final String imagePath;
 
-  ResultArguments(this.pdfPath);
+  ResultArguments(this.imagePath);
 }
 
 class ResultPage extends StatefulWidget {
@@ -19,8 +21,10 @@ class _ResultPageState extends State<ResultPage> {
   @override
   Widget build(BuildContext context) {
     final args = ModalRoute.of(context)!.settings.arguments as ResultArguments;
+
+    Image image = Image.file(File(args.imagePath));
     return Scaffold(
-      backgroundColor: ThemeColors.offwhite,
+      backgroundColor: Colors.grey[700],
       body: Row(
         children: [
           Container(
@@ -32,14 +36,14 @@ class _ResultPageState extends State<ResultPage> {
                 Padding(
                   padding: const EdgeInsets.symmetric(vertical: 8.0),
                   child: IconButton(
-                    icon: Icon(Icons.save, color: ThemeColors.offwhite),
+                    icon: Icon(Icons.save, color: ThemeColors.gold),
                     onPressed: () => (),
                   ),
                 ),
                 Padding(
                   padding: const EdgeInsets.symmetric(vertical: 8.0),
                   child: IconButton(
-                    icon: Icon(Icons.arrow_back, color: ThemeColors.offwhite),
+                    icon: Icon(Icons.arrow_back, color: ThemeColors.gold),
                     onPressed: () => Navigator.pop(context),
                   ),
                 ),
@@ -47,14 +51,12 @@ class _ResultPageState extends State<ResultPage> {
             ),
           ),
           Expanded(
-            child: Center(
-              child: Container(
-                width: 400,
-                height: 400,
-                child: PdfView(
-                  controller: PdfController(
-                    document: PdfDocument.openFile(args.pdfPath),
-                  ),
+            child: InteractiveViewer(
+              child: Center(
+                child: Container(
+                  height: 400,
+                  decoration: BoxDecoration(border: Border.all()),
+                  child: image,
                 ),
               ),
             ),

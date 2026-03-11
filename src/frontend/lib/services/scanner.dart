@@ -44,7 +44,7 @@ class ScanTaskResult extends ScanTaskResponse {
 Future<ScanTaskResponse> requestDocumentScan(
   String path, {
   String serviceUrl = scannerUrl,
-  String exportAs = "pdf",
+  String exportAs = "png",
 }) async {
   final url = Uri.parse("$serviceUrl/digitalize");
   final body = jsonEncode(<String, dynamic>{
