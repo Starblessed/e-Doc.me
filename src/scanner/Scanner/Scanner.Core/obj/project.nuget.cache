@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "nM89GyM4j5I=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danma\\Documents\\Projetos\\e-Doc.me-standalone\\src\\scanner\\Scanner\\Scanner.Core\\Scanner.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danma\\.nuget\\packages\\opencvsharp4\\4.13.0.20260308\\opencvsharp4.4.13.0.20260308.nupkg.sha512",
+    "C:\\Users\\danma\\.nuget\\packages\\opencvsharp4.runtime.win\\4.13.0.20260302\\opencvsharp4.runtime.win.4.13.0.20260302.nupkg.sha512"
+  ],
+  "logs": []
+}

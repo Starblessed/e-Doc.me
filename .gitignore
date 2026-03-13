@@ -1,59 +1,53 @@
-# Python-generated files
+# Python
 __pycache__/
 *.py[oc]
-build/
+*.egg-info
 dist/
 wheels/
-*.egg-info
 
 # Virtual environments
 .venv
 
-# Dotenv
+# Environment
 .env
 
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
+# OS junk
 .DS_Store
-.atom/
-.build/
-.buildlog/
-.history
-.svn/
-.swiftpm/
-migrate_working_dir/
+Thumbs.db
 
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
+# Logs
+*.log
+
+# IDE
 .idea/
+.vs/
+.vscode/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-.vscode
+# VS user files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
+# .NET build
+bin/
+obj/
+*.nupkg
+packages/
+
+# Flutter / Dart
+build/
 .dart_tool/
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
-/build/
-/coverage/
+coverage/
 
-# Symbolication related
+# Flutter symbolication
 app.*.symbols
-
-# Obfuscation related
 app.*.map.json
 
-# Android Studio will place build artifacts here
+# Android build outputs
 /android/app/debug
 /android/app/profile
 /android/app/release
