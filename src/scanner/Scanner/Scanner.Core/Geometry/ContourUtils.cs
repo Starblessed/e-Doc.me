@@ -29,7 +29,7 @@ namespace Scanner.Core.Geometry
                 if (approx.Length != 4) { continue; }
                 if (!Cv2.IsContourConvex(approx)) { continue; }
 
-                Mat reshapedPoints = InputArray.Create(approx).GetMat().Reshape(4, 2);
+                // Mat reshapedPoints = InputArray.Create(approx).GetMat().Reshape(4, 2);
                 Rect contourRectangle = Cv2.BoundingRect(approx);
 
                 double width = contourRectangle.Width;
@@ -46,7 +46,9 @@ namespace Scanner.Core.Geometry
 
                 if (fillRatio < 0.45) { continue; }
 
+                Quadrilateral contourQuadrilateral = Quadrilateral.FromPoints(approx);
 
+                // todo: quadrilateral angle check
 
 
             }

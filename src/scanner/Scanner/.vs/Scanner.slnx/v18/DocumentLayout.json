@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\danma\\Documents\\Projetos\\e-Doc.me-standalone\\src\\scanner\\Scanner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A689D82E-44DB-465B-8182-C2E9EBF9DF3E}|Scanner.Core.Tests.Unit\\Scanner.Core.Tests.Unit.csproj|c:\\users\\danma\\documents\\projetos\\e-doc.me-standalone\\src\\scanner\\scanner\\scanner.core.tests.unit\\geometry\\contourutilstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A689D82E-44DB-465B-8182-C2E9EBF9DF3E}|Scanner.Core.Tests.Unit\\Scanner.Core.Tests.Unit.csproj|solutionrelative:scanner.core.tests.unit\\geometry\\contourutilstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A689D82E-44DB-465B-8182-C2E9EBF9DF3E}|Scanner.Core.Tests.Unit\\Scanner.Core.Tests.Unit.csproj|c:\\users\\danma\\documents\\projetos\\e-doc.me-standalone\\src\\scanner\\scanner\\scanner.core.tests.unit\\commonstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A689D82E-44DB-465B-8182-C2E9EBF9DF3E}|Scanner.Core.Tests.Unit\\Scanner.Core.Tests.Unit.csproj|solutionrelative:scanner.core.tests.unit\\commonstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9853E931-6335-C200-F8DC-EC9D91F61059}|Scanner.Core\\Scanner.Core.csproj|c:\\users\\danma\\documents\\projetos\\e-doc.me-standalone\\src\\scanner\\scanner\\scanner.core\\commons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9853E931-6335-C200-F8DC-EC9D91F61059}|Scanner.Core\\Scanner.Core.csproj|solutionrelative:scanner.core\\commons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9853E931-6335-C200-F8DC-EC9D91F61059}|Scanner.Core\\Scanner.Core.csproj|c:\\users\\danma\\documents\\projetos\\e-doc.me-standalone\\src\\scanner\\scanner\\scanner.core\\geometry\\contourutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9853E931-6335-C200-F8DC-EC9D91F61059}|Scanner.Core\\Scanner.Core.csproj|solutionrelative:scanner.core\\geometry\\contourutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,6 +13,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{9853E931-6335-C200-F8DC-EC9D91F61059}|Scanner.Core\\Scanner.Core.csproj|c:\\users\\danma\\documents\\projetos\\e-doc.me-standalone\\src\\scanner\\scanner\\scanner.core\\extraction\\autoextractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9853E931-6335-C200-F8DC-EC9D91F61059}|Scanner.Core\\Scanner.Core.csproj|solutionrelative:scanner.core\\extraction\\autoextractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A689D82E-44DB-465B-8182-C2E9EBF9DF3E}|Scanner.Core.Tests.Unit\\Scanner.Core.Tests.Unit.csproj|c:\\users\\danma\\documents\\projetos\\e-doc.me-standalone\\src\\scanner\\scanner\\scanner.core.tests.unit\\geometry\\contourutilstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A689D82E-44DB-465B-8182-C2E9EBF9DF3E}|Scanner.Core.Tests.Unit\\Scanner.Core.Tests.Unit.csproj|solutionrelative:scanner.core.tests.unit\\geometry\\contourutilstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A689D82E-44DB-465B-8182-C2E9EBF9DF3E}|Scanner.Core.Tests.Unit\\Scanner.Core.Tests.Unit.csproj|c:\\users\\danma\\documents\\projetos\\e-doc.me-standalone\\src\\scanner\\scanner\\scanner.core.tests.unit\\commonstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A689D82E-44DB-465B-8182-C2E9EBF9DF3E}|Scanner.Core.Tests.Unit\\Scanner.Core.Tests.Unit.csproj|solutionrelative:scanner.core.tests.unit\\commonstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9853E931-6335-C200-F8DC-EC9D91F61059}|Scanner.Core\\Scanner.Core.csproj|c:\\users\\danma\\documents\\projetos\\e-doc.me-standalone\\src\\scanner\\scanner\\scanner.core\\commons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9853E931-6335-C200-F8DC-EC9D91F61059}|Scanner.Core\\Scanner.Core.csproj|solutionrelative:scanner.core\\commons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedHeight": 252,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ContourUtilsTests.cs",
               "DocumentMoniker": "C:\\Users\\danma\\Documents\\Projetos\\e-Doc.me-standalone\\src\\scanner\\Scanner\\Scanner.Core.Tests.Unit\\Geometry\\ContourUtilsTests.cs",
               "RelativeDocumentMoniker": "Scanner.Core.Tests.Unit\\Geometry\\ContourUtilsTests.cs",
               "ToolTip": "C:\\Users\\danma\\Documents\\Projetos\\e-Doc.me-standalone\\src\\scanner\\Scanner\\Scanner.Core.Tests.Unit\\Geometry\\ContourUtilsTests.cs",
               "RelativeToolTip": "Scanner.Core.Tests.Unit\\Geometry\\ContourUtilsTests.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAuwDYAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAqwCsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-14T05:45:50.93Z",
               "IsPinned": true,
@@ -52,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Commons.cs",
               "DocumentMoniker": "C:\\Users\\danma\\Documents\\Projetos\\e-Doc.me-standalone\\src\\scanner\\Scanner\\Scanner.Core\\Commons.cs",
               "RelativeDocumentMoniker": "Scanner.Core\\Commons.cs",
@@ -60,12 +60,11 @@
               "RelativeToolTip": "Scanner.Core\\Commons.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T01:51:44.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-14T01:51:44.554Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "CommonsTests.cs",
               "DocumentMoniker": "C:\\Users\\danma\\Documents\\Projetos\\e-Doc.me-standalone\\src\\scanner\\Scanner\\Scanner.Core.Tests.Unit\\CommonsTests.cs",
               "RelativeDocumentMoniker": "Scanner.Core.Tests.Unit\\CommonsTests.cs",
@@ -78,41 +77,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ContourUtils.cs",
               "DocumentMoniker": "C:\\Users\\danma\\Documents\\Projetos\\e-Doc.me-standalone\\src\\scanner\\Scanner\\Scanner.Core\\Geometry\\ContourUtils.cs",
               "RelativeDocumentMoniker": "Scanner.Core\\Geometry\\ContourUtils.cs",
-              "ToolTip": "C:\\Users\\danma\\Documents\\Projetos\\e-Doc.me-standalone\\src\\scanner\\Scanner\\Scanner.Core\\Geometry\\ContourUtils.cs",
-              "RelativeToolTip": "Scanner.Core\\Geometry\\ContourUtils.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAkwFAAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\danma\\Documents\\Projetos\\e-Doc.me-standalone\\src\\scanner\\Scanner\\Scanner.Core\\Geometry\\ContourUtils.cs*",
+              "RelativeToolTip": "Scanner.Core\\Geometry\\ContourUtils.cs*",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwDAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T16:06:39.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Quadrilateral.cs",
               "DocumentMoniker": "C:\\Users\\danma\\Documents\\Projetos\\e-Doc.me-standalone\\src\\scanner\\Scanner\\Scanner.Core\\Models\\Quadrilateral.cs",
               "RelativeDocumentMoniker": "Scanner.Core\\Models\\Quadrilateral.cs",
               "ToolTip": "C:\\Users\\danma\\Documents\\Projetos\\e-Doc.me-standalone\\src\\scanner\\Scanner\\Scanner.Core\\Models\\Quadrilateral.cs",
               "RelativeToolTip": "Scanner.Core\\Models\\Quadrilateral.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBcAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T16:01:59.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "AutoExtractor.cs",
               "DocumentMoniker": "C:\\Users\\danma\\Documents\\Projetos\\e-Doc.me-standalone\\src\\scanner\\Scanner\\Scanner.Core\\Extraction\\AutoExtractor.cs",
               "RelativeDocumentMoniker": "Scanner.Core\\Extraction\\AutoExtractor.cs",
               "ToolTip": "C:\\Users\\danma\\Documents\\Projetos\\e-Doc.me-standalone\\src\\scanner\\Scanner\\Scanner.Core\\Extraction\\AutoExtractor.cs",
               "RelativeToolTip": "Scanner.Core\\Extraction\\AutoExtractor.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwAMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T15:58:23.538Z"
+              "WhenOpened": "2026-03-13T15:58:23.538Z",
+              "EditorCaption": ""
             }
           ]
         },
