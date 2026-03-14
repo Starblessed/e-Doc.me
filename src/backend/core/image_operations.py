@@ -84,7 +84,6 @@ def reorder_contour(contour):
 
     return ordered
 
-
 def get_aspect_ratio(contour, mode: str="minrect") -> float:
     match mode:
         case "minrect":
@@ -102,8 +101,7 @@ def get_aspect_ratio(contour, mode: str="minrect") -> float:
             return max(w, h) / min(w, h), orientation
         case _:
             raise NotImplementedError(f"Mode \"{mode}\" is not a supported mode. Try one of the following: {GAR_MODES}")
-        
-        
+                
 def get_result_dimensions(smallest_dim: int, aspect_ratio: float, orientation: str) -> ImageDimensions:
     if orientation == 'landscape':
         return ImageDimensions(width=int(smallest_dim*aspect_ratio), height=int(smallest_dim))
@@ -112,7 +110,6 @@ def get_result_dimensions(smallest_dim: int, aspect_ratio: float, orientation: s
     
 def apply_margin(img: np.ndarray, margin: float=10) -> np.ndarray:
     return img[margin:img.shape[0] - margin, margin:img.shape[1] - margin]
-
 
 def auto_extract(img: np.ndarray, debug: bool = False) -> Quadrilateral:
     if img is None or img.size == 0:

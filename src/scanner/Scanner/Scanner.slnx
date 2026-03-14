@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="Scanner.Core.Tests.Unit/Scanner.Core.Tests.Unit.csproj" Id="a689d82e-44db-465b-8182-c2e9ebf9df3e" />
   <Project Path="Scanner.Core/Scanner.Core.csproj" />
 </Solution>
