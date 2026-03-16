@@ -22,9 +22,9 @@ namespace Scanner.Core.Models
 
         }
 
-        public void Scale(double factor)
+        public Quadrilateral ScaleBy(double factor)
         {
-            // todo: implement scaling logic for quadrilaterals
+            return new Quadrilateral(TopLeft * factor, TopRight * factor, BottomRight * factor, BottomLeft * factor);
         }
 
         public static Quadrilateral FromPoints(Point[] points)
