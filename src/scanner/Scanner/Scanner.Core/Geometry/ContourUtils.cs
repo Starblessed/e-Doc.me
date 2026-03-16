@@ -11,9 +11,9 @@ namespace Scanner.Core.Geometry
 {
     public static class ContourUtils
     {
-        public static void GetBestDocumentContour(Point[][] contours, double workArea)
+        public static Quadrilateral? GetBestDocumentContour(Point[][] contours, double workArea)
         {
-            Quadrilateral bestContour;
+            Quadrilateral? bestContour = null;
             double bestScore = -1;
 
 
@@ -47,11 +47,20 @@ namespace Scanner.Core.Geometry
                 if (fillRatio < 0.45) { continue; }
 
                 Quadrilateral contourQuadrilateral = Quadrilateral.FromPoints(approx);
+                QuadrilateralAngles contourAngles = QuadrilateralAngles.FromQuadrilateral(contourQuadrilateral);
 
-                // todo: quadrilateral angle check
+                if (!(contourAngles.All(a => a >= 55 && a <= 135))) { continue; }
 
+                double score = area * fillRatio;
 
+                if (score > bestScore)
+                {
+                    bestScore = score;
+                    bestContour = contourQuadrilateral;
+                }
             }
+
+            return bestContour;
 
         }
 

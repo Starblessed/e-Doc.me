@@ -6,12 +6,12 @@ using OpenCvSharp;
 
 namespace Scanner.Core.Models
 {
-    public class Quadrilateral
+    public struct Quadrilateral
     {
-        public Point2f TopLeft { get; set; }
-        public Point2f TopRight { get; set; }
-        public Point2f BottomRight { get; set; }
-        public Point2f BottomLeft { get; set; }
+        public Point TopLeft { get; set; }
+        public Point TopRight { get; set; }
+        public Point BottomRight { get; set; }
+        public Point BottomLeft { get; set; }
 
         private Quadrilateral(Point tl, Point tr, Point br, Point bl)
         {
@@ -19,6 +19,12 @@ namespace Scanner.Core.Models
             TopRight = tr;
             BottomRight = br;
             BottomLeft = bl;
+
+        }
+
+        public void Scale(double factor)
+        {
+            // todo: implement scaling logic for quadrilaterals
         }
 
         public static Quadrilateral FromPoints(Point[] points)

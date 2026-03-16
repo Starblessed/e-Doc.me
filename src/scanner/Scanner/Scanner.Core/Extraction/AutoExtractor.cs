@@ -14,11 +14,11 @@ namespace Scanner.Core.Extraction
         {
             if (image == null)
             {
-                // todo: handle nullImage case
+                throw new ArgumentNullException(nameof(image), "Image cannot be null.");
 
             } else if (image.Size().Width == 0 | image.Size().Height == 0)
             {
-                // todo: handle emptyImage case
+                throw new ArgumentException("Image cannot have 0 width nor height.", nameof(image));
             }
             
             // Adjusts dimensions to perform operations

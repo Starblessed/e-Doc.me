@@ -10,7 +10,7 @@ namespace Scanner.Core
         {
             if (arr == null || arr.Length == 0)
             {
-                throw new ArgumentException(nameof(arr), "Array cannot be null nor empty.");
+                throw new ArgumentException("Array cannot be null nor empty.", nameof(arr));
             }
 
             double maxValue = arr[0];
@@ -32,7 +32,7 @@ namespace Scanner.Core
         {
             if (arr == null || arr.Length == 0)
             {
-                throw new ArgumentException(nameof(arr), "Array cannot be null nor empty.");
+                throw new ArgumentException("Array cannot be null nor empty.", nameof(arr));
             }
 
             double minValue = arr[0];
