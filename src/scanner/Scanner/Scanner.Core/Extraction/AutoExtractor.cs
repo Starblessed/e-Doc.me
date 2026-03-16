@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using OpenCvSharp;
+using Scanner.Core.Geometry;
 using Scanner.Core.Models;
-
-using OpenCvSharp;
-using System.Security.Cryptography.X509Certificates;
 
 namespace Scanner.Core.Extraction
 {
     public static class AutoExtractor
     {
-        public static void AutoExtract(Mat image)
+        public static Quadrilateral? AutoExtract(Mat image)
         {
             if (image == null)
             {
@@ -27,10 +23,10 @@ namespace Scanner.Core.Extraction
 
             int targetHeight = 1024; // Fixed unless parameters can be changed by the user
 
-            double scale = originalHeight > targetHeight ? targetHeight / originalHeight : 1.0f;
+            double newScale = originalHeight > targetHeight ? targetHeight / originalHeight : 1.0;
 
-            int newWidth = (int)(originalWidth * scale);
-            int newHeight = (int)(originalHeight * scale);
+            int newWidth = (int)(originalWidth * newScale);
+            int newHeight = (int)(originalHeight * newScale);
 
             int workingArea = newWidth * newHeight;
 
@@ -73,8 +69,10 @@ namespace Scanner.Core.Extraction
                 method: ContourApproximationModes.ApproxSimple
             );
 
-            // todo: call contour utils to get best contour and return it then
-            //       convert method to return a new Quadrilateral instance
+            Quadrilateral? bestContour = ContourUtils.GetBestDocumentContour(contours, workingArea);
+
+            return bestContour;
+
         }
     }
 }
