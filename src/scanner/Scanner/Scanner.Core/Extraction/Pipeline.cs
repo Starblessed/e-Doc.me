@@ -12,13 +12,12 @@ namespace Scanner.Core.Extraction
     {
         private static Mat LoadImage(string path)
         {
-            // todo: load an image into memory
-            return new Mat();
+            return Cv2.ImRead(path);
         }
 
         private static void SaveImage(string path, Mat image)
         {
-            // todo: save an image to a path
+            Cv2.ImWrite(path, image);
         }
 
         public static string AutoExtract(string imagePath, string saveToPath)
